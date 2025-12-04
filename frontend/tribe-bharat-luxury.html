@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Tribe Bharat - Luxury Clothing</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&amp;family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<style>
+        .font-heading {
+            font-family: 'Tangerine', cursive;
+        }
+        .font-body {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#3E160C",
+              "background-light": "#E8D9C4",
+              "background-dark": "#1A1A1A", 
+              "surface-light": "#E0E0E0",
+              "surface-dark": "#2E303C",
+              "accent": "#2E303C",
+            },
+            fontFamily: {
+              "display": ["Manrope", "sans-serif"],
+              "heading": ["Tangerine", "cursive"]
+            },
+            borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-[#3E160C] dark:text-[#E0E0E0]">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="sticky top-0 z-50 flex items-center justify-between whitespace-nowrap border-b border-solid border-primary/20 dark:border-surface-dark/50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm px-4 sm:px-8 md:px-16 lg:px-24 py-4">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-2">
+<h1 class="text-primary dark:text-background-light text-4xl font-heading font-bold">Tribe Bharat</h1>
+</div>
+</div>
+<nav class="hidden lg:flex items-center gap-9">
+<a class="text-primary dark:text-surface-light text-sm font-medium leading-normal hover:opacity-75 transition-opacity" href="#">New Arrivals</a>
+<a class="text-primary dark:text-surface-light text-sm font-medium leading-normal hover:opacity-75 transition-opacity" href="#">Men</a>
+<a class="text-primary dark:text-surface-light text-sm font-medium leading-normal hover:opacity-75 transition-opacity" href="#">Women</a>
+<a class="text-primary dark:text-surface-light text-sm font-medium leading-normal hover:opacity-75 transition-opacity" href="#">Collections</a>
+<a class="text-primary dark:text-surface-light text-sm font-medium leading-normal hover:opacity-75 transition-opacity" href="#">Our Story</a>
+</nav>
+<div class="flex flex-1 justify-end items-center gap-2">
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 text-primary dark:text-surface-light hover:bg-primary/10 dark:hover:bg-surface-dark/80 transition-colors">
+<span class="material-symbols-outlined">search</span>
+</button>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 text-primary dark:text-surface-light hover:bg-primary/10 dark:hover:bg-surface-dark/80 transition-colors">
+<span class="material-symbols-outlined">person</span>
+</button>
+<button class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 text-primary dark:text-surface-light hover:bg-primary/10 dark:hover:bg-surface-dark/80 transition-colors">
+<span class="material-symbols-outlined">shopping_bag</span>
+</button>
+<button class="lg:hidden flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-full h-10 w-10 text-primary dark:text-surface-light hover:bg-primary/10 dark:hover:bg-surface-dark/80 transition-colors">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<main class="flex-1">
+<section class="w-full">
+<div class="flex min-h-[calc(100vh-80px)] w-full flex-col gap-6 bg-cover bg-center bg-no-repeat items-center justify-center p-4 text-center" data-alt="A model wearing an elegant, flowing garment from Tribe Bharat, set against a dramatic, minimalist backdrop." style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuB8BlVxezK0Df-eoRImFA4QHMk05_LMVEF4kFyDmjdY-QLjYeRbXqUl6MJNsWkSSsN2F3LPcNQj7ZHpvndFwKdg9pZCCJDEIwsBuBGEoaREMIVmXgfGQidqQgAh6WakgrQZVt6caAFghHFFb_qpe3ahfOtGVNdpG43kGGDavsD4W8ZrGLcMhtJ8-0K68p9d3ltj_fTXpBFsx3IBBYnJJOdrWETavDbiIJGuHPntpVdTd4ZHStneOHjzQJwrapFy6gSRH-HyBu7Jozo");'>
+<div class="flex flex-col gap-4">
+<h2 class="text-[#E0E0E0] text-7xl md:text-8xl font-heading font-bold leading-tight">Artistry in Every Thread</h2>
+<p class="text-[#E8D9C4] text-base md:text-lg font-normal leading-normal max-w-lg mx-auto">Discover our latest collection of handcrafted luxury, where timeless tradition meets contemporary elegance.</p>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-[#E8D9C4] hover:opacity-90 transition-opacity text-base font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Shop The Collection</span>
+</button>
+</div>
+</section>
+<section class="py-16 sm:py-24 px-4 sm:px-8 md:px-16 lg:px-24">
+<div class="max-w-7xl mx-auto">
+<h2 class="text-primary dark:text-surface-light text-4xl sm:text-5xl font-heading font-bold leading-tight tracking-[-0.015em] text-center mb-12">Featured Categories</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+<div class="relative bg-cover bg-center flex flex-col rounded-lg justify-end p-6 aspect-[3/4] overflow-hidden group" data-alt="Model wearing a traditional handwoven saree with intricate details" style='background-image: linear-gradient(0deg, rgba(46, 48, 60, 0.6) 0%, rgba(46, 48, 60, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuBbQbuHGjuQScqw-kUtD8Dz38bcA02O4WYpUMGD5VlP2bUH--jHQcOnsWRnM3Lkp8bmal374YLfh_Sr_Gfa7LYG98osQQVYwIzAU33QM-wTdcmmVKN1OO4AUm7X5Ou6bBz3Kze9CDeDllBLcLBtTXJUeEMdIPvDm3SAZM3cdoBRR_PkhVWxmowIFxwaE-BEnNMgMbQW2uKptguoz2p03SNeujLmDHFMX4jjOMMBGBs5qw8g-3daDTAKLiRgybL4rYULzmz73UxqnTI");'>
+<p class="text-white text-2xl font-bold leading-tight w-full">Handwoven Sarees</p>
+<a aria-label="Shop Handwoven Sarees" class="absolute inset-0" href="#"></a>
+</div>
+<div class="relative bg-cover bg-center flex flex-col rounded-lg justify-end p-6 aspect-[3/4] overflow-hidden group" data-alt="Man dressed in a stylish bespoke menswear kurta" style='background-image: linear-gradient(0deg, rgba(46, 48, 60, 0.6) 0%, rgba(46, 48, 60, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuANTfp-Xi1JAdsh4wSgMGG8eC8XewNyrsUCYrHGB4iy22i9exdMfn-55s2m9kOyHQWRAeYj5L8LbAxMYohkhJaT1tpax0mAu_QO2nLespQo_p452wPR_klec1qulaMF747G7FxXcCcx-z--eFnTXkqx2JvXqTTyvjIK7zQvZcNl7qrDJfk6moad2YbhpXLkqbxHhHfBwcc7KjPeMd91_8dsbmJeLSxDWAfMGfsrL-EvMuZBHl_THTtowOV4oza2xZjNoQg10LsfF-E");'>
+<p class="text-white text-2xl font-bold leading-tight w-full">Bespoke Menswear</p>
+<a aria-label="Shop Bespoke Menswear" class="absolute inset-0" href="#"></a>
+</div>
+<div class="relative bg-cover bg-center flex flex-col rounded-lg justify-end p-6 aspect-[3/4] overflow-hidden group" data-alt="Close up of a handcrafted artisanal necklace" style='background-image: linear-gradient(0deg, rgba(46, 48, 60, 0.6) 0%, rgba(46, 48, 60, 0) 60%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCMx7yGs0-Hhr645L8oKwrOQ5VRncR5D3xH1mWTTAISTSyClbWM_SH0RHFrowglyfZoU5f9H85_-iVLLtJRfszMM-CMDR5eSlVIadnqu5KWViewCQ4XfziP3zlcqYt-L1OYvBH7TT24VoXrBCV6K-_Yq77VpQSK-FYflgBlhk77aNi5Y5NtkVO5PNftrgz0yuN_OgFgxj62o4qwU6Itn5wN_9MPPQu8i_609dIf-hJQEVH1lJwYXmlpbV0CriACEc_8F4APjya0F9E");'>
+<p class="text-white text-2xl font-bold leading-tight w-full">Artisanal Accessories</p>
+<a aria-label="Shop Artisanal Accessories" class="absolute inset-0" href="#"></a>
+</div>
+</div>
+</div>
+</section>
+<section class="bg-surface-light dark:bg-accent py-16 sm:py-24 px-4 sm:px-8 md:px-16 lg:px-24">
+<div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+<div class="w-full bg-center bg-no-repeat aspect-[4/5] bg-cover rounded-lg" data-alt="An artisan carefully weaving fabric on a traditional loom, showcasing craftsmanship." style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCCEWzhDXHuA8tYMNWf4IZoyAyVrr9JEYuRUE5UAdRcqjfgYaZq6Pb-RNXPamzgbETUhdZRnz65IV_7dJtQjmuc_0OMs8Djpy2UICQgZTbb5Rw5ZHjg6mCXpvmrJHGF1x5oVUJNzsr1sUK_x5oOn3e476fEHZvVwB5l3prCmHSMNGscJLSun7mHok");'></div>
+<div class="flex flex-col gap-6">
+<h2 class="text-primary dark:text-surface-light text-4xl sm:text-5xl font-heading font-bold leading-tight tracking-[-0.015em]">Crafted with Heritage</h2>
+<p class="text-primary dark:text-surface-light text-base font-normal leading-normal">Each piece in our collection tells a story of generations of artisans who have perfected their craft. From the selection of the finest materials to the intricate handwork, every detail reflects our commitment to preserving traditional techniques while embracing contemporary design.</p>
+<p class="text-primary dark:text-surface-light text-base font-normal leading-normal">We work directly with master craftspeople across India, ensuring fair trade practices and supporting local communities. When you choose Tribe Bharat, you're not just buying clothing – you're investing in cultural heritage and sustainable fashion.</p>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-8 bg-primary text-[#E8D9C4] hover:opacity-90 transition-opacity text-base font-bold leading-normal tracking-[0.015em] self-start">
+<span class="truncate">Learn Our Story</span>
+</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="bg-primary text-[#E8D9C4] py-16 px-4 sm:px-8 md:px-16 lg:px-24">
+<div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+<div class="flex flex-col gap-4">
+<h3 class="text-2xl font-heading font-bold">Tribe Bharat</h3>
+<p class="text-sm leading-normal opacity-80">Luxury clothing that celebrates Indian heritage and craftsmanship.</p>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold">Shop</h4>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">New Arrivals</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Men</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Women</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Accessories</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold">Company</h4>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Our Story</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Artisans</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Sustainability</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Contact</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-lg font-bold">Support</h4>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Size Guide</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Care Instructions</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">Returns</a>
+<a class="text-sm hover:opacity-75 transition-opacity" href="#">FAQ</a>
+</div>
+</div>
+<div class="border-t border-[#E8D9C4]/20 mt-12 pt-8 text-center">
+<p class="text-sm opacity-80">© 2024 Tribe Bharat. All rights reserved.</p>
+</div>
+</footer>
+</div>
+</div>
+</body>
+</html>
