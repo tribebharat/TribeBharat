@@ -33,6 +33,7 @@ def send_otp(request):
     
     # Send Email
     try:
+        print(otp)
         send_mail(
             'Your OTP for TribeBharat',
             f'Your OTP is {otp}. It is valid for 5 minutes.',
