@@ -34,6 +34,9 @@ def send_otp(request):
     # Send Email
     try:
         print(otp)
+        print(EMAIL_HOST_USER)
+        print(EMAIL_HOST_PASSWORD)
+        
         send_mail(
             'Your OTP for TribeBharat',
             f'Your OTP is {otp}. It is valid for 5 minutes.',
@@ -43,7 +46,7 @@ def send_otp(request):
         )
     except Exception as e:
         print(f"Error sending email: {e}")
-        # For dev, we might want to return OTP if email fails, but let's stick to console backend
+        return Response({'detail': f'Failed to send email: {str(e)}'}, status=status.HTTP_500_INTERNAL_SERVER_ERROR)
     
     return Response({'detail': 'OTP sent successfully.'})
 
