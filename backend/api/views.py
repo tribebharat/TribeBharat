@@ -34,9 +34,9 @@ def send_otp(request):
     
     # Send Email
     try:
-        print(otp)
-        print(settings.EMAIL_HOST_USER)
-        print(settings.EMAIL_HOST_PASSWORD)
+        # print(otp)
+        # print(settings.EMAIL_HOST_USER)
+        # print(settings.EMAIL_HOST_PASSWORD)
         
         send_mail(
             'Your OTP for TribeBharat',
