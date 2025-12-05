@@ -5,6 +5,7 @@ from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework_simplejwt.tokens import RefreshToken
 from django.contrib.auth import authenticate
 
+
 from .models import User, Product, CartItem, Order, OrderItem
 from .serializers import (
     UserRegisterSerializer, UserSerializer,
